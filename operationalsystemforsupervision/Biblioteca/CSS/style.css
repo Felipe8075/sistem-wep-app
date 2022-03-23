@@ -592,6 +592,8 @@ form.sign-in-form {
     height: 50px;
     padding: 5px;
     align-items: center;
+    outline: none !important;
+    text-decoration: none !important;
     border-radius: 5px;
     margin-bottom: 10px;
     box-shadow: 0px 5px 10px rgba(0.4, 0.4, 0.4, 0.4);
@@ -610,6 +612,83 @@ form.sign-in-form {
     font-size: 20px;
   }
 
+  .photocol img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+  }
+  
+  .perfilcol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .namecol{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .main_geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .main_geral p{
+    font-size: 20px;
+  }
+
+  .input-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-select select {
+    background-color: rgb(233, 231, 231);
+    outline: none !important;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 5px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .input-select textarea {
+    background-color: rgb(233, 231, 231);
+    outline: none !important;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    overflow-y: auto;
+
+  }
+
+  .input-select select:invalid{
+    border: solid 1px rgb(167, 22, 22);
+  }
+
+  .input-select select:valid{
+    border: solid 1px rgb(25, 141, 14);
+  }
 
 }
